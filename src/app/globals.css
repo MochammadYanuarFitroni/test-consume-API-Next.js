@@ -1,19 +1,20 @@
 :root {
-  --background: #ffffff;
+  --background: rgb(233, 200, 116);
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  background-color: var(--background);
 }
 
 body {
@@ -35,8 +36,22 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
+} */
+
+
+/* Login.css */
+.ant-input-password {
+  position: relative; /* Untuk positioning ikon */
+}
+
+.ant-input-suffix {
+  position: absolute;
+  right: 10px; /* Jarak dari tepi kanan */
+  top: 50%; /* Posisi vertikal tengah */
+  transform: translateY(-50%); /* Memindahkan ikon ke tengah secara vertikal */
+  cursor: pointer; /* Menambahkan cursor pointer */
 }

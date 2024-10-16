@@ -1,5 +1,9 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import 'antd/dist/reset.css';
+// Misalnya di _app.js atau layout.js
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -26,3 +30,20 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+
+// import 'antd/dist/reset.css';
+// import './globals.css';
+
+// export const metadata = {
+//   title: 'Next.js App with Ant Design',
+//   description: 'Test project with Next.js and Ant Design',
+// };
+
+// export default function RootLayout({ children }) {
+//   return (
+//     <html lang="en">
+//       <body>{children}</body>
+//     </html>
+//   );
+// }

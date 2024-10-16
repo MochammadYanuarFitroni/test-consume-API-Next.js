@@ -1,3 +1,19 @@
+# Intruksi penginstalan atau menjalankan
+tes coding 1
+1. versi node.js v20.11.1
+2. versi npm 10.9.0
+3. git clone kedalam lokal anda
+4. buka project dengan vs code (yang saya pakai)
+5. buka terminal atau yang lainnnya
+6. ketik npm install dan enter
+7. lalu akan menginstall semua dependensi/library yang saya pakai
+8. npm run dev (untuk menjalankan program)
+9. buka http://localhost:3000/login untuk masuk ke login
+10. isi username dan password (terserah)
+11. lalu akan masuk ke menu main dan menampilkan data
+12. jika ingin mencari universitas yang diingin tinggal ketik difilter tersebut
+
+-----
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
